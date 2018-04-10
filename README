@@ -1,0 +1,9 @@
+Pentru implementarea temei am ales sa plec de la crearea a 2 interfete, "Shape"
+si "Visitor" pentru realizarea conceptului de "Visitor Pattern", urmand ca toate
+formele sa o implementeze pe cea dintai. Atat Singleton, cat si Factory Pattern
+am ales sa le utilizez in cadrul clasei "ShapeFactory", care imi va returna cate
+o noua forma pe baza input-ului. Ulterior las totul pe baza visitorului "Drawing"
+pentru a se ocupa de desenarea si umplerea fiecarei forme in parte. La nivelul
+figurilor, am ales sa plec de la clasa "Canvas" care contine BufferedImage-ul
+in mod static, aceasta fiind clasa parinte pentru toate celelalte shape-uri.
+De asemenea, aceasta va contine toti algoritmii ceruti spre implementare.

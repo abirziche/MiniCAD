@@ -1,0 +1,4 @@
+build:
+	javac -g Main.java
+clean:
+	rm -f shapes/*.class, *.class
